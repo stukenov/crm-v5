@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "strict": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "ES2022",
+            "dom"
+        ],
+        "types": [
+            "vite/client"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@Layouts": [ "resources/layouts/index.ts" ],
+            "@Components": [ "resources/components/index.ts" ],
+            "@Components/*": [ "resources/components/*" ],
+            "ziggy-js": ["./vendor/tightenco/ziggy"]
+        },
+        "typeRoots": [
+            "./node_modules/@types",
+            "./resources/types"
+        ]
+    },
+    "include": [
+        "resources/**/*",
+        "resources/types/**/*.d.ts"
+    ]
+}
