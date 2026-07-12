@@ -23,7 +23,7 @@
     "framer-motion": "^12.38.0",
     "react-dom": "^19.2.5",
     "ts-loader": "^9.5.1",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "ziggy-js": "^2.3.0"
   }
 }
