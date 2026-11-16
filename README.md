@@ -1,5 +1,7 @@
 # CRM System - Version 5
 
+> **Archived.** This is an earlier step of the CRM series. The current version is [crm-v6](https://github.com/stukenov/crm-v6).
+
 An experimental CRM system exploring Nuxt.js-inspired architecture with Inertia.js and a simplified customer management model.
 
 ## Description
